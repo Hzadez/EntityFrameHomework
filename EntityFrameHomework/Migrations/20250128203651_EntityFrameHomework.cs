@@ -11,23 +11,23 @@ namespace EntityFrameHomework.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Cars",
+                name: "Car",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Maxspeed = table.Column<int>(type: "int", nullable: false),
                     Fueltank = table.Column<double>(type: "float", nullable: false),
-                    Power = table.Column<int>(type: "int", nullable: false),
+                    Power = table.Column<double>(type: "float", nullable: false),
                     Doorcount = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cars", x => x.Id);
+                    table.PrimaryKey("PK_Car", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Colors",
+                name: "Color",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -36,31 +36,31 @@ namespace EntityFrameHomework.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Colors", x => x.Id);
+                    table.PrimaryKey("PK_Color", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Models",
+                name: "Model",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CarId = table.Column<int>(type: "int", nullable: false)
+                    CarId = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Models", x => x.Id);
+                    table.PrimaryKey("PK_Model", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Models_Cars_CarId",
+                        name: "FK_Model_Car_CarId",
                         column: x => x.CarId,
-                        principalTable: "Cars",
+                        principalTable: "Car",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "CarAndColors",
+                name: "CarAndColor",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -70,60 +70,60 @@ namespace EntityFrameHomework.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CarAndColors", x => x.Id);
+                    table.PrimaryKey("PK_CarAndColor", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_CarAndColors_Cars_CarId",
+                        name: "FK_CarAndColor_Car_CarId",
                         column: x => x.CarId,
-                        principalTable: "Cars",
+                        principalTable: "Car",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CarAndColors_Colors_ColorId",
+                        name: "FK_CarAndColor_Color_ColorId",
                         column: x => x.ColorId,
-                        principalTable: "Colors",
+                        principalTable: "Color",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Brands",
+                name: "Brand",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ModelId = table.Column<int>(type: "int", nullable: false)
+                    ModelId = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Brands", x => x.Id);
+                    table.PrimaryKey("PK_Brand", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Brands_Models_ModelId",
+                        name: "FK_Brand_Model_ModelId",
                         column: x => x.ModelId,
-                        principalTable: "Models",
+                        principalTable: "Model",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Brands_ModelId",
-                table: "Brands",
+                name: "IX_Brand_ModelId",
+                table: "Brand",
                 column: "ModelId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_CarAndColors_CarId",
-                table: "CarAndColors",
+                name: "IX_CarAndColor_CarId",
+                table: "CarAndColor",
                 column: "CarId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CarAndColors_ColorId",
-                table: "CarAndColors",
+                name: "IX_CarAndColor_ColorId",
+                table: "CarAndColor",
                 column: "ColorId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Models_CarId",
-                table: "Models",
+                name: "IX_Model_CarId",
+                table: "Model",
                 column: "CarId",
                 unique: true);
         }
@@ -132,19 +132,19 @@ namespace EntityFrameHomework.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Brands");
+                name: "Brand");
 
             migrationBuilder.DropTable(
-                name: "CarAndColors");
+                name: "CarAndColor");
 
             migrationBuilder.DropTable(
-                name: "Models");
+                name: "Model");
 
             migrationBuilder.DropTable(
-                name: "Colors");
+                name: "Color");
 
             migrationBuilder.DropTable(
-                name: "Cars");
+                name: "Car");
         }
     }
 }

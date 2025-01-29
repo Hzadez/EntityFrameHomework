@@ -129,3 +129,4 @@ C:\Users\user\Desktop\Backend\EntityFrameHomework\EntityFrameHomework\obj\Debug\
 C:\Users\user\Desktop\Backend\EntityFrameHomework\EntityFrameHomework\obj\Debug\net8.0\EntityFrameHomework.pdb
 C:\Users\user\Desktop\Backend\EntityFrameHomework\EntityFrameHomework\obj\Debug\net8.0\EntityFrameHomework.genruntimeconfig.cache
 C:\Users\user\Desktop\Backend\EntityFrameHomework\EntityFrameHomework\obj\Debug\net8.0\ref\EntityFrameHomework.dll
+C:\Users\user\Desktop\Backend\EntityFrameHomework\EntityFrameHomework\obj\Debug\net8.0\EntityFrameHomework.sourcelink.json

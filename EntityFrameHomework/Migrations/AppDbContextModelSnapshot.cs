@@ -41,7 +41,7 @@ namespace EntityFrameHomework.Migrations
                     b.HasIndex("ModelId")
                         .IsUnique();
 
-                    b.ToTable("Brands");
+                    b.ToTable("Brand");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.Car", b =>
@@ -61,12 +61,12 @@ namespace EntityFrameHomework.Migrations
                     b.Property<int>("Maxspeed")
                         .HasColumnType("int");
 
-                    b.Property<int>("Power")
-                        .HasColumnType("int");
+                    b.Property<double>("Power")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cars");
+                    b.ToTable("Car");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.CarAndColor", b =>
@@ -89,7 +89,7 @@ namespace EntityFrameHomework.Migrations
 
                     b.HasIndex("ColorId");
 
-                    b.ToTable("CarAndColors");
+                    b.ToTable("CarAndColor");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.Color", b =>
@@ -106,7 +106,7 @@ namespace EntityFrameHomework.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colors");
+                    b.ToTable("Color");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.Model", b =>
@@ -129,18 +129,18 @@ namespace EntityFrameHomework.Migrations
                     b.HasIndex("CarId")
                         .IsUnique();
 
-                    b.ToTable("Models");
+                    b.ToTable("Model");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.Brand", b =>
                 {
-                    b.HasOne("EntityFrameHomework.Class.Model", "Models")
-                        .WithOne("Brands")
+                    b.HasOne("EntityFrameHomework.Class.Model", "Model")
+                        .WithOne("Brand")
                         .HasForeignKey("EntityFrameHomework.Class.Brand", "ModelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Models");
+                    b.Navigation("Model");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.CarAndColor", b =>
@@ -164,24 +164,24 @@ namespace EntityFrameHomework.Migrations
 
             modelBuilder.Entity("EntityFrameHomework.Class.Model", b =>
                 {
-                    b.HasOne("EntityFrameHomework.Class.Car", "Cars")
-                        .WithOne("Models")
+                    b.HasOne("EntityFrameHomework.Class.Car", "Car")
+                        .WithOne("Model")
                         .HasForeignKey("EntityFrameHomework.Class.Model", "CarId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Cars");
+                    b.Navigation("Car");
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.Car", b =>
                 {
-                    b.Navigation("Models")
+                    b.Navigation("Model")
                         .IsRequired();
                 });
 
             modelBuilder.Entity("EntityFrameHomework.Class.Model", b =>
                 {
-                    b.Navigation("Brands")
+                    b.Navigation("Brand")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

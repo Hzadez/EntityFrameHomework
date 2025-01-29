@@ -32,12 +32,17 @@ namespace EntityFrameHomework.Methods
         }
         public List<Brand> GetAll()
         {
-            throw new NotImplementedException();
+            AppDbContext newdb = new AppDbContext();
+            return newdb.Brand.ToList();
         }
 
         public void Update(int id, Brand brand)
         {
-            throw new NotImplementedException();
+            AppDbContext newDb = new AppDbContext();
+            var existbrand = GetbyId(id);
+            if (brand != null) throw new Exception("Genre is not found");
+            existbrand.Name = brand.Name;
+            newDb.SaveChanges();
         }       
     }
 }

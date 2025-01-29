@@ -9,7 +9,7 @@ namespace EntityFrameHomework.Class
     public class Brand : BaseEntity
     {
         public int ModelId { get; set; }
-        public Model Model { get; set; }
+        public Model Models { get; set; }
 
         public override string ToString()
         {

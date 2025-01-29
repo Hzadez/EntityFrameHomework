@@ -11,7 +11,7 @@ namespace EntityFrameHomework.Class
         public int Id { get; set; }
         public int Maxspeed { get; set; }
         public double Fueltank { get; set; }
-        public int Power { get; set; }
+        public double Power { get; set; }
         public int Doorcount { get; set; }
         public Model Model { get; set; }
 

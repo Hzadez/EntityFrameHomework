@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntityFrameHomework.Class;
+using Microsoft.EntityFrameworkCore;
 
 namespace EntityFrameHomework.Methods
 {
@@ -32,12 +33,17 @@ namespace EntityFrameHomework.Methods
         }
         public List<Model> GetAll()
         {
-            throw new NotImplementedException();
+            AppDbContext newdb = new AppDbContext();
+            return newdb.Model.ToList();
         }
 
         public void Update(int id, Model model)
         {
-            throw new NotImplementedException();
+            AppDbContext newDb = new AppDbContext();
+            var existmodel = GetbyId(id);
+            if (model != null) throw new Exception("Genre is not found");
+            existmodel.Name = model.Name;
+            newDb.SaveChanges();
         }
     }
 }

@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\class\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\class\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mbrands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mbrands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mbrands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mbrands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\methods\\mcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|solutionrelative:entityframehomework\\methods\\mcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E9F2593-C002-4E84-A177-E09780811700}|EntityFrameHomework\\EntityFrameHomework.csproj|c:\\users\\user\\desktop\\backend\\entityframehomework\\entityframehomework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,30 +30,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Program.cs",
               "RelativeDocumentMoniker": "EntityFrameHomework\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Program.cs",
               "RelativeToolTip": "EntityFrameHomework\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:09:16.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:09:16.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Mbrands.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mbrands.cs",
               "RelativeDocumentMoniker": "EntityFrameHomework\\Methods\\Mbrands.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mbrands.cs",
               "RelativeToolTip": "EntityFrameHomework\\Methods\\Mbrands.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T19:19:02.437Z",
               "EditorCaption": ""
@@ -65,27 +60,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Mmodels.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mmodels.cs",
-              "RelativeDocumentMoniker": "EntityFrameHomework\\Methods\\Mmodels.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mmodels.cs",
-              "RelativeToolTip": "EntityFrameHomework\\Methods\\Mmodels.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA2wCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:21:27.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Mcars.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mcars.cs",
               "RelativeDocumentMoniker": "EntityFrameHomework\\Methods\\Mcars.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mcars.cs",
               "RelativeToolTip": "EntityFrameHomework\\Methods\\Mcars.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:24:01.814Z",
+              "WhenOpened": "2025-01-29T14:13:52.094Z",
               "EditorCaption": ""
             },
             {
@@ -96,22 +78,22 @@
               "RelativeDocumentMoniker": "EntityFrameHomework\\Methods\\Mcolors.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mcolors.cs",
               "RelativeToolTip": "EntityFrameHomework\\Methods\\Mcolors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:22:51.313Z",
+              "WhenOpened": "2025-01-29T14:13:53.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Class\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "EntityFrameHomework\\Class\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Class\\BaseEntity.cs",
-              "RelativeToolTip": "EntityFrameHomework\\Class\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Title": "Mmodels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mmodels.cs",
+              "RelativeDocumentMoniker": "EntityFrameHomework\\Methods\\Mmodels.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Backend\\EntityFrameHomework\\EntityFrameHomework\\Methods\\Mmodels.cs",
+              "RelativeToolTip": "EntityFrameHomework\\Methods\\Mmodels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:50:19.363Z",
+              "WhenOpened": "2025-01-29T14:13:56.428Z",
               "EditorCaption": ""
             }
           ]
