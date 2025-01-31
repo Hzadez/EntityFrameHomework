@@ -15,7 +15,6 @@ namespace EntityFrameHomework.Methods
             newDb.Brand.Add(brand);
             newDb.SaveChanges();
         }
-
         public void Delete(int id)
         {
             AppDbContext newDb = new AppDbContext();

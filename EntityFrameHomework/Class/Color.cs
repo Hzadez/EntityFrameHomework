@@ -8,7 +8,6 @@ namespace EntityFrameHomework.Class
 {
     public class Color : BaseEntity
     {
-    
         public override string ToString()
         {
             return ($"Id {Id} -- Name {Name}");

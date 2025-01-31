@@ -16,6 +16,7 @@ namespace EntityFrameHomework.Methods
             newDb.SaveChanges();
         }
 
+
         public void Delete(int id)
         {
             AppDbContext newDb = new AppDbContext();

@@ -8,14 +8,14 @@ namespace EntityFrameHomework.Class
 {
     public class Model : BaseEntity
     {
-        public List<Brand> Brand { get; set; }
-        public int CarId { get; set; }
+        public int Id { get; set; }
+        public Brand brand { get; set; }
+        public int BrandId { get; set; }
         public Car Car { get; set; }
 
         public override string ToString()
         {
             return ($"Id {Id} -- Name {Name}");
         }
-
     }
 }

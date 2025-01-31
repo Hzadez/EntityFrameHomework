@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntityFrameHomework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2828aea76437894a04ec8d6ef3f5296774f75e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3417429f200d733787cd910da048cac1979a5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntityFrameHomework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntityFrameHomework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

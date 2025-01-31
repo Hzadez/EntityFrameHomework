@@ -14,6 +14,7 @@ namespace EntityFrameHomework.Class
         public double Power { get; set; }
         public int Doorcount { get; set; }
         public Model Model { get; set; }
+        public int ModelId { get; set; }
 
         public override string ToString()
         {
